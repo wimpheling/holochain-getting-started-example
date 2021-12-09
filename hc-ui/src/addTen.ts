@@ -2,7 +2,7 @@ import { AppWebsocket, CallZomeRequest } from '@holochain/conductor-api';
 
 const WS_URL = 'ws://localhost:8888';
 // The name of the happ. For some reason it seems to always be "test-app" whatever name you choose in your hApp config ?
-const H_APP_ID = 'test-app';
+const H_APP_ID = 'my-happ';
 // The name of the zome
 const ZOME_NAME = 'numbers';
 // The name of the function
